@@ -6,7 +6,7 @@
 #    By: gaerhard <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/07 11:40:17 by gaerhard          #+#    #+#              #
-#    Updated: 2018/11/12 10:42:56 by gaerhard         ###   ########.fr        #
+#    Updated: 2018/11/12 15:49:30 by gaerhard         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,6 +32,7 @@ all: $(NAME)
 
 $(NAME) : $(OBJ)
 	ar rc $(NAME) $(OBJ)
+	ranlib $(NAME)
 
 clean :
 	/bin/rm -f $(OBJ)
