@@ -63,6 +63,25 @@ resulting from this
 * ft_striter iterates through a string and applies a function to each character
 * ft_strjoin allocates a new string resulting from the concatenation of two strings
 * ft_strlcat has the same behavior as strlcat from the libc
+* ft_strlen has the same behavior as strlen from the libc
+* ft_strmap applies a given function to each character of a string and returns the result
+of this action
+* ft_strmapi applies a given function to each character of a string by giving its index to create a
+new string resulting from the successive applications of the function.
+* ft_strncat has the same behavior as strncat from the libc
+* ft_strncmp has the same behavior as strncmp fro the libc
+* ft_strncpy has the same behavior as strncpy from the libc
+* ft_strnequ compares two strings up to n characters an returns 1 if they are identicar, or 0 otherwise
+* ft_strnew allocates a new string and initilize each character to '\0'
+* ft_strnstr has the same behavior as strnstr from the libc
+* ft_strrchr has the same behavior as strrchr from the libc
+* ft_strsplit returns an array of strings created separating the given string using the delimiter received
+* ft_strstr has the same behavior as strstr from the libc
+* ft_strsub allocates a fresh substring from the given string using the start index and length received
+* ft_strtrim returns a copy of a string without whitespaces at the beginning and end of the string.
+* ft_sumvect returns the sum of two 3d vectors
+* ft_tolower has the same behavior as tolower from the libc
+* ft_toupper has the same behavior as toupper from the libc
 
 
 ##### Author
